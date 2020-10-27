@@ -1,0 +1,27 @@
+body{
+    background: #efdecd;
+    font-family: Aldrich;
+}
+.cfaf{
+    background: linear-gradient(112deg,#c31432 -3%,#240b36 104%);
+    border-radius: 8px;
+    max-width: max-content;
+    font-weight: 100;
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transition: 250ms ease;
+}
+
+.cfaf:hover{
+    transform: scale(1.1);
+}
+
+.cfaf p{
+    color: whitesmoke;
+    font-family: 'Aldrich','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+    margin: 0;
+    padding: 24px 32px;
+}
